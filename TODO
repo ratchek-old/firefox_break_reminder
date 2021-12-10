@@ -1,0 +1,5 @@
+Open the dialog window only in the current tab
+Don't open another dialog window if the previous one is still Open
+Only start the counter once you close the dialog window
+Let the user choose the timeout interval
+Add timer to tab button

@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Break Reminder",
+  "version": "1.0",
+
+  "description": "Reminds you to take a break every 15 mins",
+  "icons": {
+    "48": "icons/eye-48.png",
+    "96": "icons/eye-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["break-reminder.js"]
+    }
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/eye-32.png",
+    "default_title": "Break Reminder"
+  }
+
+
+}
